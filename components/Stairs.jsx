@@ -19,7 +19,7 @@ const reverseIndex = (index) => {
 
 function Stairs() {
   return (
-    <>
+    <> 
       {/* Rendering the stair case motion */}
       {[...Array(6)].map((_, index) => {
         return (

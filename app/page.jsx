@@ -7,7 +7,7 @@ import Stats from "@/components/Stats";
 export default function Home() {
   return (
     <section>
-      <div className="container mx-auto h-full">
+      <div className="container mx-auto h-full px-4 md:px-12 lg:px-16">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pd-24">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
