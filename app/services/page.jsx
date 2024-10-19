@@ -38,7 +38,7 @@ const services = [
 function Services() {
   return (
     <section className="min-h-[88vh] flex lex-col justify-center py-12 xl:py-8">
-      <div className="container mx-auto">
+      <div className="container mx-auto h-full px-4 md:px-12 lg:px-16">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{
@@ -49,16 +49,16 @@ function Services() {
         >
           {services.map((service, index) => {
             return (
-              <div key={index} className="flex-1 flex flex-col justify-center gap-6 group">
+              <div key={index} className="flex-1 flex flex-col justify-center gap-6">
                 {/* top */}
-                <div className="w-full flex justify-between items-center">
+                <div className="w-full flex justify-between items-center group">
                   <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">{service.num}</div>
-                  <Link href={service.href} className="w-[70px] h-[78px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45">
+                  <Link href={service.href} className="w-[50px] h-[50px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45">
                     <BsArrowDownRight className="text-primary text-3xl"/>
                   </Link>
                 </div>
                 {/* heading */}
-                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{service.title}</h2>
+                <h2 className="text-[32px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">{service.title}</h2>
                 {/* description */}
                 <p className="text-white/60">{service.description}</p>
                 {/* border */}
