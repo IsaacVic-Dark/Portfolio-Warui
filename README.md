@@ -60,11 +60,11 @@ For a full list of projects, visit my portfolio.
 
 Let's build something amazing together! Feel free to reach out:
 
-[LinkedIn:](https://www.linkedin.com/in/isaacwarui/)
+[https://www.linkedin.com/in/isaacwarui/](https://www.linkedin.com/in/isaacwarui/)
 
-[GitHub:] (https://github.com/IsaacVic-Dark)
+[https://github.com/IsaacVic-Dark](https://github.com/IsaacVic-Dark)
 
-[Email:](isaacvwarui@gmail.com)
+[isaacvwarui@gmail.com](isaacvwarui@gmail.com)
 
 
 💡 Want to collaborate? Drop me a message and let's create something incredible! 🚀
